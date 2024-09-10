@@ -6,9 +6,9 @@ public class LargestAndSmallest
         ArrayList<Integer> ar=new ArrayList<Integer>();
         ar.add(12);
         ar.add(9);
-        ar.add(96);
-        ar.add(45);
-        ar.add(11);
+        ar.add(9627);
+        ar.add(4585);
+        ar.add(1);
         ar.add(23);
         ar.add(17);
 

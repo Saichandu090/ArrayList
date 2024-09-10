@@ -12,6 +12,19 @@ public class Reverse
         ar.add(23);
         ar.add(17);
 
+        int l=0,h=ar.size()-1;
+        while(l<h)
+        {
+           int temp=ar.remove(l);
+           ar.add(l,ar.remove(h-1));
+           ar.add(h,temp);
+           l++;
+           h--;
+        }
 
+        for(int i : ar)
+        {
+            System.out.println(i);
+        }
     }
 }

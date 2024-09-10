@@ -8,7 +8,7 @@ public class Sort
         ar.add(9);
         ar.add(96);
         ar.add(45);
-        ar.add(11);
+        ar.add(12);
         ar.add(23);
         ar.add(17);
 
